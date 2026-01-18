@@ -31,6 +31,15 @@ public class DataStructure {
             System.out.println(numbers[1][2]);
             System.out.println(numbers[2][1]);
 
+             // Exercise: Converting Primitive Balance to Class Type and Using Object Methods
+
+                float accountBalancePrimitive = 1000.75f;
+
+                Float accountBalanceObject = accountBalancePrimitive;
+
+                System.out.println(accountBalanceObject);
+                System.out.println(accountBalanceObject.toString().length());
+
 
     }
 }
