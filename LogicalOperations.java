@@ -24,5 +24,12 @@ class LogicalOperations {
             System.out.println("too cloudy skies");
         }
 
+        // Exercise: Comet Speed Evaluation Using Ternary Operator
+
+            int cometSpeed = 60;
+
+            String action = cometSpeed < 50 ? "Chasing comet!" : "Comet too fast, let it go!";
+            System.out.println(action);
+
     }
 }
